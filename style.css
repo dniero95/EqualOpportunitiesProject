@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+
+header{
+    text-align: center;
+    background-color: teal;
+}
+main {
+
+    display: grid;
+    grid-template: 70vh 30vh / 1fr 3fr;
+    
+}
+
+
+
+#testo-canzone{
+    grid-row: 1/-1;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background-color: coral;
+    overflow-y: hidden;
+}
+
+#testo-canzone:hover{
+  overflow-y: scroll;
+}
+
+#testo-canzone > p {
+    text-align: center;
+}
+
+#damiraP{
+    color: darkgreen;
+}
+
+#darioP{
+    color: darkorchid;
+}
+
+#marikaP{
+    color: darkturquoise;
+}
+
+#andreiP{
+    color: darkred;
+}
+
+#video-container{
+    grid-row: 1/2;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#intervento{
+    grid-row: 2/-1;
+    background-color: seagreen;
+    text-align: center;
+}
+
+
+
+footer{
+    background-color: aquamarine;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    margin: 5px;
+}
